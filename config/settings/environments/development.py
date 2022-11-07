@@ -4,7 +4,7 @@ from config.settings.components._base import (
     BASE_DIR 
 )
 
-DEBUG = True
+DEBUG = False
 
 INSTALLED_APPS += [
     "debug_toolbar",
