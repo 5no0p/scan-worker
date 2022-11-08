@@ -133,3 +133,5 @@ dmypy.json
 
 #old Pipfile
 jPipfile.txt
+
+Pipfile.lock
