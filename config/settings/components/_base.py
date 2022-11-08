@@ -55,7 +55,7 @@ DJANGO_APPS = [
 EXTENSIONS_APPS = [
     'channels',
     'django_celery_results',
-    'graphene_django',
+    #'graphene_django',
     'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
     "graphql_auth",
     "corsheaders",
