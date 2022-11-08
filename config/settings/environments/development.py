@@ -9,14 +9,14 @@ DEBUG = False
 INSTALLED_APPS += [
     "debug_toolbar",
     "django_extensions",
-    'graphiql_debug_toolbar',
+    # 'graphiql_debug_toolbar',
 ]
 
 INSTALLED_APPS = ["daphne",] + INSTALLED_APPS
 
 MIDDLEWARE += [
-    # "debug_toolbar.middleware.DebugToolbarMiddleware",
-    'graphiql_debug_toolbar.middleware.DebugToolbarMiddleware',
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
+    # 'graphiql_debug_toolbar.middleware.DebugToolbarMiddleware',
 ] 
 
 INTERNAL_IPS = [
